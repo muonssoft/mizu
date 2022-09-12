@@ -1,0 +1,102 @@
+.container{
+    width: 21.5cm;
+    height: 29.9cm;
+    border: 1px  solid black;
+   display: block;
+}
+.header{
+    display: grid;
+    
+    grid-template-columns: [first] 380px [line2] auto ;
+    
+}
+.header__logos{
+    padding: 20px;
+    
+}
+.header__logos img{
+    height: 60px;
+    padding: 2px;
+    box-sizing: content-box;
+    
+}
+.header__text {
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.title{
+    font-size: large;
+    font-weight: bold;
+}
+.client__data--title{
+    display: grid; 
+    grid-template-columns: [first] 100px [line2] auto ;
+    font-weight: bold;
+}
+
+.client__form--select{
+    
+    
+    margin-top: -10px;
+}
+.subTitle{
+    font-size: medium;
+}
+.client{
+    display: grid;
+    grid-template-columns: [first] 400px [line2] auto ;
+}
+.client__data{
+    padding: 20px;
+    margin-left: 50px;
+}
+.client__title{
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: [uno] 110px [dos] auto ;
+}
+.table{
+    width: 95%;
+    margin: 0 auto;
+}
+.client__subTitle{
+    font-weight: normal;
+}
+.fecha{
+    padding: 20px;
+    margin-left: 50px;
+}
+.contentTitle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ant-form-item-control-input{
+    display: inline;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+.textNotes{
+    padding: 20px;
+    margin-left: 50px;
+}
+.notes{
+    display: flex;
+    width: 812px;
+    white-space: normal;
+    word-break:inherit;
+   
+}
+.ant-select-selection-item{
+    font-size: 11.5px; 
+    
+}
+
